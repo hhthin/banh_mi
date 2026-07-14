@@ -1,0 +1,106 @@
+:root {
+  --primary: #D87A25;
+  --primary-hover: #B65D13;
+  --primary-light: #FDF2E7;
+  --secondary: #5C3A21;
+  --secondary-hover: #482B17;
+  --accent: #C93B2B;
+  --background: #FCFAF6;
+  --surface: #ffffff;
+  --surface-muted: #F5EFEB;
+  --text-primary: #2D231E;
+  --text-secondary: #6E6259;
+  --border: #EADECF;
+  --border-light: #F2EBE1;
+  
+  --shadow-sm: 0 2px 8px rgba(92, 58, 33, 0.04);
+  --shadow-md: 0 12px 24px rgba(92, 58, 33, 0.06);
+  --shadow-lg: 0 20px 40px rgba(92, 58, 33, 0.1);
+  --shadow-inset: inset 0 2px 4px rgba(0, 0, 0, 0.06);
+  
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-full: 9999px;
+  
+  --font-serif: var(--font-playfair), Georgia, serif;
+  --font-sans: var(--font-inter), Arial, sans-serif;
+  
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+body {
+  color: var(--text-primary);
+  background: var(--background);
+  font-family: var(--font-sans);
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+  color: var(--secondary);
+  line-height: 1.25;
+  font-weight: 700;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: var(--transition-fast);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button, input, textarea {
+  font-family: inherit;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: var(--radius-full);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-secondary);
+}
+
+/* Accessibility: Focus styles */
+*:focus-visible {
+  outline: 3px solid var(--primary);
+  outline-offset: 2px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  width: 100%;
+}
