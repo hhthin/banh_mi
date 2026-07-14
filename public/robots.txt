@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://banhmiphuochung.vercel.app/sitemap.xml
+Sitemap: https://banh-mi-phuoc-hung.vercel.app/sitemap.xml

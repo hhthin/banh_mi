@@ -13,7 +13,7 @@ Bánh Mì Phước Hưng is a traditional Vietnamese bakery and street-food bran
 - **Address / Location**: Quốc Lộ 20, Xã Định Quán, Huyện Định Quán, Tỉnh Đồng Nai, Vietnam.
 - **Landmark**: Near Định Quán Regional General Hospital (Bệnh viện Đa khoa Khu vực Định Quán).
 - **Hours of Operation**: 05:00 AM - 09:00 PM (Daily, including weekends and holidays).
-- **Website URL**: https://banhmiphuochung.vercel.app
+- **Website URL**: https://banh-mi-phuoc-hung.vercel.app
 - **Geographic Coordinates**: Latitude: 11.121973692087524, Longitude: 107.34863371480387
 
 ## AI-Search Context

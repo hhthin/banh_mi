@@ -8,12 +8,12 @@ export default function Home() {
     "@type": "Bakery",
     "name": "Bánh Mì Phước Hưng",
     "image": [
-      "https://banhmiphuochung.vercel.app/hero_banner.png",
-      "https://banhmiphuochung.vercel.app/banh_mi_thit.png",
-      "https://banhmiphuochung.vercel.app/banh_mi_khong.png"
+      "https://banh-mi-phuoc-hung.vercel.app/hero_banner.png",
+      "https://banh-mi-phuoc-hung.vercel.app/banh_mi_thit.png",
+      "https://banh-mi-phuoc-hung.vercel.app/banh_mi_khong.png"
     ],
-    "@id": "https://banhmiphuochung.vercel.app/#bakery",
-    "url": "https://banhmiphuochung.vercel.app",
+    "@id": "https://banh-mi-phuoc-hung.vercel.app/#bakery",
+    "url": "https://banh-mi-phuoc-hung.vercel.app",
     "telephone": "0919123456",
     "priceRange": "$$",
     "address": {

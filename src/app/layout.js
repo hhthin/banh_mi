@@ -22,7 +22,7 @@ export const metadata = {
     description: "Khám phá hương vị bánh mì truyền thống trứ danh tại Định Quán, Đồng Nai. Menu đa dạng: bánh mì thịt, bánh mì không và các loại bánh ngọt khác.",
     type: "website",
     locale: "vi_VN",
-    url: "https://banhmiphuochung.vercel.app",
+    url: "https://banh-mi-phuoc-hung.vercel.app",
     siteName: "Bánh Mì Phước Hưng",
   },
 };
