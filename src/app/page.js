@@ -8,9 +8,9 @@ export default function Home() {
     "@type": "Bakery",
     "name": "Bánh Mì Phước Hưng",
     "image": [
-      "https://banh-mi-phuoc-hung.vercel.app/hero_banner.png",
-      "https://banh-mi-phuoc-hung.vercel.app/banh_mi_thit.png",
-      "https://banh-mi-phuoc-hung.vercel.app/banh_mi_khong.png"
+      "https://banh-mi-phuoc-hung.vercel.app/hero_banner.jpg",
+      "https://banh-mi-phuoc-hung.vercel.app/banh_mi_thit.jpg",
+      "https://banh-mi-phuoc-hung.vercel.app/banh_mi_khong.jpg"
     ],
     "@id": "https://banh-mi-phuoc-hung.vercel.app/#bakery",
     "url": "https://banh-mi-phuoc-hung.vercel.app",
@@ -105,7 +105,7 @@ export default function Home() {
             <div className={styles.heroImageWrapper}>
               <div className={styles.heroImageContainer}>
                 <Image
-                  src="/hero_banner.png"
+                  src="/hero_banner.jpg"
                   alt="Bánh Mì Phước Hưng giòn ngon đậm đà"
                   fill
                   sizes="(max-width: 768px) 100vw, 50vw"
@@ -177,7 +177,7 @@ export default function Home() {
               <div className={styles.menuCard}>
                 <div className={styles.menuImageContainer}>
                   <Image
-                    src="/banh_mi_thit.png"
+                    src="/banh_mi_thit.jpg"
                     alt="Bánh mì thịt đặc biệt Phước Hưng"
                     fill
                     sizes="(max-width: 768px) 100vw, 33vw"
@@ -208,7 +208,7 @@ export default function Home() {
               <div className={styles.menuCard}>
                 <div className={styles.menuImageContainer}>
                   <Image
-                    src="/banh_mi_khong.png"
+                    src="/banh_mi_khong.jpg"
                     alt="Bánh mì không nóng giòn Phước Hưng"
                     fill
                     sizes="(max-width: 768px) 100vw, 33vw"
@@ -239,7 +239,7 @@ export default function Home() {
               <div className={styles.menuCard}>
                 <div className={styles.menuImageContainer}>
                   <Image
-                    src="/banh_ngot_khac.png"
+                    src="/banh_ngot_khac.jpg"
                     alt="Các loại bánh ngọt và bánh nướng khác tại Phước Hưng"
                     fill
                     sizes="(max-width: 768px) 100vw, 33vw"
